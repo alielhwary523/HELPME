@@ -1,0 +1,13 @@
+/* Custom Styles for ContactHub */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar to hide it */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
